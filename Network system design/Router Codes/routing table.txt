@@ -1,0 +1,62 @@
+routing table
+
+R3
+---------------
+router OSPF 3
+network 160.100.10.0 0.0.255.255 area 1
+network 192.168.10.0 0.0.0.255 area 1
+network 192.168.20.0 0.0.0.255 area 1
+network 192.168.30.0 0.0.0.255 area 1
+network 192.168.40.0 0.0.0.255 area 1
+network 192.168.50.0 0.0.0.255 area 1
+
+R6
+------------------------
+router OSPF 6
+network 192.168.5.0 0.0.0.255 area 1
+network 192.168.10.0 0.0.0.255 area 1
+
+R1
+-------------------------
+router OSPF 1
+network 50.168.10.0 0.255.255.255 area 1
+network 192.168.40.0 0.0.0.255 area 1
+network 192.168.70.0 0.0.0.255 area 1
+network 192.168.80.0 0.0.0.255 area 1
+
+R2
+------------------
+router OSPF 2
+network 60.100.10.0 0.255.255.255 area 1
+network 192.168.80.0 0.0.0.255 area 1
+network 192.168.50.0 0.0.0.255 area 1
+network 192.168.60.0 0.0.0.255 area 1
+
+R4
+---------------------
+router OSPF 4
+network 150.100.10.0 0.0.255.255 area 1
+network 192.168.20.0 0.0.0.255 area 1
+network 192.168.70.0 0.0.0.255 area 1
+
+R5
+--------------
+router OSPF 5
+network 150.120.10.0 0.0.255.255 area 1
+network 192.168.30.0 0.0.0.255 area 1
+network 192.168.60.0 0.0.0.255 area 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

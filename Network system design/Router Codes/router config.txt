@@ -1,0 +1,159 @@
+
+
+router 3 
+-------------------
+interface fa0/0
+ip address 160.100.10.254 255.255.0.0
+no shut 
+do wr
+exit
+
+interface se2/0
+ip address 192.168.10.1 255.255.255.0
+clock rate 64000
+no shut 
+do wr
+exit
+
+interface se3/0
+ip address 192.168.20.1 255.255.255.0
+clock rate 64000
+no shut 
+do wr
+exit
+
+interface se6/0
+ip address 192.168.30.1 255.255.255.0
+clock rate 64000
+no shut 
+do wr
+exit
+
+interface se7/0
+ip address 192.168.40.1 255.255.255.0
+clock rate 64000
+no shut 
+do wr
+exit
+
+interface se8/0
+ip address 192.168.50.1 255.255.255.0
+clock rate 64000
+no shut 
+do wr
+exit
+
+
+r6
+-------------------
+interface fa0/0
+ip address 192.168.5.254 255.255.255.0
+no shut
+do wr
+exit
+
+interface se2/0
+ip address 192.168.10.2 255.255.255.0
+no shut 
+do wr
+exit
+
+router 4
+-------------------
+interface fa0/0
+ip address 192.168.5.254 255.255.255.0
+no shut
+do wr
+exit
+
+interface se2/0
+ip address 192.168.20.2 255.255.255.0
+no shut
+do wr
+exit
+
+interface se3/0
+ip address 192.168.70.2 255.255.255.0
+no shut 
+do wr
+exit
+
+
+router 5
+------------------------------
+interface fa0/0
+ip address 150.120.10.254 255.255.0.0
+no shut
+do wr
+exit
+
+interface se2/0
+ip address 192.168.30.2 255.255.255.0
+no shut
+do wr
+exit
+
+interface se3/0
+ip address 192.168.60.2 255.255.255.0
+no shut 
+do wr
+exit
+
+router1
+-------------------------
+interface fa0/0
+ip address 50.168.10.254 255.0.0.0
+no shut
+do wr
+exit
+
+interface se2/0
+ip address 192.168.40.2 255.255.255.0
+no shut
+do wr
+exit
+
+interface se3/0
+ip address 192.168.70.1 255.255.255.0
+clock rate 64000
+no shut 
+do wr
+exit
+
+interface se6/0
+ip address 192.168.80.1 255.255.255.0
+clock rate 64000
+no shut 
+do wr
+exit
+
+r2
+-------------------------
+interface fa0/0
+ip address 60.100.10.254 255.0.0.0
+no shut
+do wr
+exit
+
+interface se2/0
+ip address 192.168.50.2 255.255.255.0
+no shut
+do wr
+exit
+
+interface se3/0
+ip address 192.168.60.1 255.255.255.0
+clock rate 64000
+no shut 
+do wr
+exit
+
+interface se6/0
+ip address 192.168.80.2 255.255.255.0
+no shut 
+do wr
+exit
+
+
+
+
