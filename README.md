@@ -1,6 +1,6 @@
 # Design a full-fledged network for an organization with multiple subnets.
 
-#### Your task is to create a complete model of a complex network by discovering the interconnectivity of the systems and subnetworks, which will reflect the International APOLLO University’s structure and facilities, features within the network will include the followings:
+### Your task is to create a complete model of a complex network by discovering the interconnectivity of the systems and subnetworks, which will reflect the International APOLLO University’s structure and facilities, features within the network will include the followings:
 
 
 - Web page of the university will reflect International Apollo University’s web page.
@@ -12,3 +12,10 @@
 
 While designing, keep the issue of future expansion/growth in mind for each of the subnets (if required) and preserve spaces. It is compulsory to incorporate wireless devices along with wired hosts in the LAN as well. In the physical design, it is a good practice to have a server room where all the servers are positioned in one LAN segment.
 
+----
+### Network Design of 5 Campuses
+![Full design](<Network system design/img/Full-design.PNG>)
+
+----
+### Network Simulation
+![simulation image](<Network system design/img/simulation.PNG>)
